@@ -9,12 +9,11 @@ export default function Home() {
 
     <div>
       <h1 className="text-4xl font-bold text-blue-700 leading-tight">
-        Want to read <br /> Stories?
+        Create your Acccount
       </h1>
 
       <p className="text-gray-600 mt-4">
-        In this website you'll be able to read a lot of stories available.
-        Just create an account and login.
+        Be a publisher, reader, etc. make your own position.
       </p>
 
       
@@ -28,12 +27,12 @@ export default function Home() {
 
     <div className="flex gap-6 justify-center">
       <img
-        src="/Ponyo.jpg"
+        src="/Writer.jpg"
         alt="ponyo"
         className="w-40 h-72 object-cover rounded-3xl shadow-md"
       />
       <img
-        src="/Anime.jpg"
+        src="/reader.jpg"
         alt="anime"
         className="w-40 h-72 object-cover rounded-3xl shadow-md"
       />

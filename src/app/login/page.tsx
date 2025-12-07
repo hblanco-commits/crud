@@ -53,9 +53,16 @@ export default function LoginPage() {
         </form>
 
         <Button variant="link" className="mt-2 w-full" onClick={() => router.push('/register')}>create an account</Button>
+        <Button variant="link" className=" mt-2 w-full text-center bg-white text-black rounded-full" onClick={() => router.push('/')}>Back</Button>
         </CardContent>
         </Card>
+        
+
+        
+
         </div>
+
+
         
 
     );
